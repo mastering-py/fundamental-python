@@ -1,9 +1,9 @@
 import requests
 
-print("Hello World")
+print("Fundamental Python")
 
 try:
-    r = requests.get('https://goog le.com')
+    r = requests.get('https://goo gle.com')
 
     print(r.status_code)
 
@@ -12,4 +12,3 @@ try:
 
 except Exception as e:
     print("Ada error", e)
-
